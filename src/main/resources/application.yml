@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://springwebapp.database.windows.net:1433;database=employee;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: springwebapp
+    password: password@123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+dialect : org.hibernate.dialect.MySQL8Dialect
+server:
+  port: 9191
+
+
